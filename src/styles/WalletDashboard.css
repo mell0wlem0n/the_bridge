@@ -1,0 +1,120 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dashboard-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ffd700;
+}
+
+.wallet-info {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px #ffd700;
+}
+
+.wallet-info p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 15px #ffd700;
+  transition: all 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #daa520;
+  box-shadow: 0 0 25px #daa520;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 15px #ff4d4d;
+  transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ff6666;
+  box-shadow: 0 0 25px #ff6666;
+}
+
+
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ffd700;
+  border-radius: 8px;
+}
+
+select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ffd700;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  box-shadow: 0 0 10px #ffd700;
+  outline: none;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+select:hover {
+  box-shadow: 0 0 15px #ffd700;
+}
+
+select:focus {
+  box-shadow: 0 0 20px #ffd700;
+}
+
+select option {
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}

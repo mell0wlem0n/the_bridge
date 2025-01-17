@@ -1,0 +1,27 @@
+---
+ssfn_config_info: ~
+validator_config_info: ~
+parameters:
+  chain_start_timestamp_ms: 1737126551958
+  protocol_version: 71
+  allow_insertion_of_extra_objects: true
+  epoch_duration_ms: 86400000
+  stake_subsidy_start_epoch: 0
+  stake_subsidy_initial_distribution_amount: 1000000000000000
+  stake_subsidy_period_length: 10
+  stake_subsidy_decrease_rate: 1000
+accounts:
+  - address: "0xcf5d643ee5de90653f2cf024ea6fd29ed10b23aa7672616ea1d7f4be49ff907c"
+    gas_amounts:
+      - 30000000000000000
+      - 30000000000000000
+      - 30000000000000000
+      - 30000000000000000
+      - 30000000000000000
+  - address: "0xf23587d82e8a52f3d0d25793a583c0a7c396276878cc8e57644928f49f08e0dc"
+    gas_amounts:
+      - 30000000000000000
+      - 30000000000000000
+      - 30000000000000000
+      - 30000000000000000
+      - 30000000000000000
