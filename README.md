@@ -1,2 +1,2 @@
-#Welcome to the_bridge
-This is a website that can convert sui to ether and ether back to sui
+## Welcome to the_bridge
+This is a website that can convert sui to ether and ether back to sui using ether and sui wallets.
