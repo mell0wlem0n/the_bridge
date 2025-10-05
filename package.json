@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mysten/dapp-kit": "^0.14.44",
+    "@mysten/dapp-kit": "^0.14.48",
     "@mysten/wallet-adapter-all-wallets": "^0.5.15",
     "cors": "^2.8.5",
     "express": "^4.21.2",
